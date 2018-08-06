@@ -7,3 +7,10 @@ the app, the current user is globally available.
 
 When logged in, if user refreshes the page, the _app.js will make one call
 to "whoami" endpoint to identify the user using the cookies.
+
+If you need a page to be public (like the login page) just declare the
+static property `isPublic` and set its value to true:
+
+```
+static isPublic = true;
+```
