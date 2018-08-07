@@ -19,7 +19,7 @@ class Index extends Component {
   render() {
     const { user } = this.props;
     if (!user) {
-      return null;
+      return <div>No user found</div>;
     }
     return (
       <div>
