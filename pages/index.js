@@ -24,6 +24,7 @@ class Index extends Component {
     return (
       <div>
         <h1>Hi {user.username}</h1>
+        <h2 className="title">A dead simple, responsive boilerplate.</h2>
         <Link href="/about">
           <a>About</a>
         </Link>

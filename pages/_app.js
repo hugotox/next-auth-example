@@ -54,14 +54,7 @@ class ExampleApp extends App {
     return (
       <Container>
         <Provider store={reduxStore}>
-          <div>
-            <Component {...pageProps} />
-            <style jsx global>{`
-              body {
-                font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-              }
-            `}</style>
-          </div>
+          <Component {...pageProps} />
         </Provider>
       </Container>
     );
